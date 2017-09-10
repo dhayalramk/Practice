@@ -1,0 +1,1 @@
+<?php  echo array_sum( explode( " ", ( explode("\n", file_get_contents("php://stdin"))[1] ) ) ); ?>
