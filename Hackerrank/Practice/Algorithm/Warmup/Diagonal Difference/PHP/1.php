@@ -8,7 +8,7 @@
 	  $nums = explode(' ', $lines[$i]);
 	  $a += $nums[$i];
 	  $b += $nums[$count - $i - 1];
-	}
+	} 
 	echo abs($a - $b);
 
 ?>
