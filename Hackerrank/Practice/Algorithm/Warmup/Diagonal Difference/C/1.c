@@ -14,5 +14,5 @@ int main() {
         }
     }
     printf("%d",abs(a-b));
-    return 0; 
+    return 0;
 }
