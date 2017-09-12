@@ -14,6 +14,6 @@ int main() {
            if(i+j == n-1) b += temp; 
         }
     }
-    cout<<abs(a-b);
+    cout<<abs(a-b); 
     return 0;
 }
