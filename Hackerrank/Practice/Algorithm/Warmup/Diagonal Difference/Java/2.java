@@ -4,6 +4,7 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
+        
         Scanner in = new Scanner(System.in);
         int  size = in.nextInt(), temp, a=0,b=0;
         for (int  x = 0; x < size; x++) {
