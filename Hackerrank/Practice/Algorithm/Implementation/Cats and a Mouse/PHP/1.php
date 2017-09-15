@@ -9,7 +9,7 @@ for($a0 = 0; $a0 < $q; $a0++){
     if($aD == $bD){
         echo 'Mouse C';
     }else if($aD < $bD){
-        echo 'Cat A';
+        echo 'Cat A'; 
     }else{
         echo 'Cat B';
     }
