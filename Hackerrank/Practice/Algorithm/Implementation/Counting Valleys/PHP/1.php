@@ -11,7 +11,7 @@ foreach($arr as $a){
         $count++;
     }   
     if($level == 0){
-        $isDown = true;
+        $isDown = true; 
     }
 }
 echo $count;
