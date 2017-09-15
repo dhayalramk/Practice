@@ -10,6 +10,6 @@
         for( $j = $i+1; $j < $n; $j++ ) 
             $count += ($arr[$i]+$arr[$j]) % $k == 0 ? 1 : 0;
     
-    echo $count . "\n";
+    echo $count . "\n"; 
 
 ?>
