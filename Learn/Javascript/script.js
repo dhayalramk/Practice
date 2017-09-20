@@ -34,3 +34,7 @@ console.log(var2[4]); // undefined
 var undef = undefined;
 console.log(undef); // undefined // not recommended
 console.log(typeof undefined); // "undefined"
+
+var nu = null;
+console.log(nu); // null 
+console.log(typeof nu); // "object"
