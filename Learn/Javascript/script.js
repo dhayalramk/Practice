@@ -23,3 +23,10 @@ console.log(typeof var1);
 var var2 = [1,2,4,'5'];
 console.log(var2);
 console.log(typeof var2);
+
+var var2 = [1,2,4,'5',]; // After comma also it won't show error, ! declared
+console.log(var2[0]); // 1
+console.log(var2[1]); // 2
+console.log(var2[2]); // 4
+console.log(var2[3]); // "5"
+console.log(var2[4]); // undefined
