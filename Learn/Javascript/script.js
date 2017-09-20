@@ -49,7 +49,7 @@ console.log(typeof na); // number
 var obj1 = {};
 console.log(obj1); // [object Object] { ... }
 console.log(typeof obj1); // "object"
-
+ 
 var obj2 = {
   name : 'Dhayal'
 };
