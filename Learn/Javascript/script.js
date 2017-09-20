@@ -45,3 +45,7 @@ console.log( null === undefined ); // false
 var na = NaN;
 console.log(na); // NaN
 console.log(typeof na); // number
+
+var obj1 = {};
+console.log(obj1); // [object Object] { ... }
+console.log(typeof obj1); // "object"
