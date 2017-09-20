@@ -19,3 +19,7 @@ console.log(typeof num2); // "number"
 var var1 = [1,2,4];
 console.log(var1);
 console.log(typeof var1);
+
+var var2 = [1,2,4,'5'];
+console.log(var2);
+console.log(typeof var2);
