@@ -30,3 +30,7 @@ console.log(var2[1]); // 2
 console.log(var2[2]); // 4
 console.log(var2[3]); // "5"
 console.log(var2[4]); // undefined
+
+var undef = undefined;
+console.log(undef); // undefined // not recommended
+console.log(typeof undefined); // "undefined"
