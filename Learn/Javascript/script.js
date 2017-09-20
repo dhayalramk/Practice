@@ -9,3 +9,9 @@ console.log(str); // "string"
 console.log(boo1); // true
 console.log(boo2); // false
 console.log(num2); // 5.6
+
+console.log(typeof num1); // "number"
+console.log(typeof str); // "string"
+console.log(typeof boo1); // "boolean"
+console.log(typeof boo2); // "boolean"
+console.log(typeof num2); // "number"
