@@ -15,3 +15,7 @@ console.log(typeof str); // "string"
 console.log(typeof boo1); // "boolean"
 console.log(typeof boo2); // "boolean"
 console.log(typeof num2); // "number"
+
+var var1 = [1,2,4];
+console.log(var1);
+console.log(typeof var1);
