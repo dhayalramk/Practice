@@ -1,0 +1,6 @@
+#include<stdio.h>
+
+int main(){
+  printf("User name is: Dhayal Ram");
+  return 0;
+}
