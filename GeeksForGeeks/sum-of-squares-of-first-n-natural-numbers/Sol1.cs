@@ -1,5 +1,5 @@
 using System;
-
+// https://ide.geeksforgeeks.org/yBhl4B3Zel
 public class Sol1{
 	static public void Main (){
 		int n = 1000,total = 0;
