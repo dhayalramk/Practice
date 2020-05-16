@@ -1,9 +1,9 @@
 package com.dhayal;
 
 public class UFFactory {
-    public static UFAlgo getUF(String algo, int n){
+    public static IUFAlgo getUF(String algo, int n){
 
-        UFAlgo returnUFAlgo = null;
+        IUFAlgo returnUFAlgo = null;
         if(algo == null){
             returnUFAlgo = null;
         }else if(algo.equalsIgnoreCase("QuickFind")){
@@ -14,8 +14,8 @@ public class UFFactory {
         return returnUFAlgo;
     }
 
-    public static Printable getPrinter(UFAlgo ufAlgo){
-        Printable basicPrintUF = new BasicPrintUF(ufAlgo);
+    public static IPrintable getPrinter(IUFAlgo ufAlgo){
+        IPrintable basicPrintUF = new BasicPrintUF(ufAlgo);
         return basicPrintUF;
     }
 }

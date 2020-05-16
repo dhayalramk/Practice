@@ -1,6 +1,6 @@
 package com.dhayal;
 
-public class QuickUnionUF implements UFAlgo{
+public class QuickUnionUF implements IUFAlgo {
 
     private int[] ids;
     private int length;

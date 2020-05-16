@@ -3,8 +3,8 @@ package com.dhayal;
 public class Main {
 
 	private void execute(String algo){
-		UFAlgo object = UFFactory.getUF(algo,10);
-		Printable printUF = UFFactory.getPrinter(object);
+		IUFAlgo object = UFFactory.getUF(algo,10);
+		IPrintable printUF = UFFactory.getPrinter(object);
 		object.union(3,4);
 		object.union(3,8);
 		object.union(5,6);

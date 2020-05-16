@@ -1,6 +1,6 @@
 package com.dhayal;
 
-public class QuickFindUF implements UFAlgo{
+public class QuickFindUF implements IUFAlgo {
 
     private int[] ids;
     private int length;

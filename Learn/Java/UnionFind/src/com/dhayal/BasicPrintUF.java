@@ -1,10 +1,10 @@
 package com.dhayal;
 
-public class BasicPrintUF implements Printable{
+public class BasicPrintUF implements IPrintable {
 
-    UFAlgo ufAlgo;
+    IUFAlgo ufAlgo;
 
-    public BasicPrintUF(UFAlgo ufAlgo){
+    public BasicPrintUF(IUFAlgo ufAlgo){
         this.ufAlgo = ufAlgo;
     }
 
