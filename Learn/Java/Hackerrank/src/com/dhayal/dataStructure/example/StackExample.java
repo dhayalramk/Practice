@@ -7,7 +7,7 @@ public class StackExample {
         for (int i=1;i<=10;i++){
             s.push(i*10);
         }
-        for (int i=0;i<10;i++){
+        while (!s.isEmpty()){
             System.out.println(s.pop());
         }
     }
